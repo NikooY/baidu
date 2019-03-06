@@ -1,0 +1,99 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	cursor: default;
+	text-align: center;
+}
+input{
+	padding:0;
+	margin:0;
+}
+
+#head{
+	height: 100%;
+	width: 100%;
+}
+
+#navi{
+	width: 100%;
+	height: 32px;
+	z-index: 99;
+}
+
+#head_wrapper{
+	width: 1000px;
+	height: 38%;
+	min-height: 293px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#s_area{
+	width: 641px;
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+	z-index: 100;
+	text-align: left;
+}
+
+#icon{
+	height: 61.8%;
+	min-height: 181px;
+	z-index: 0;
+	position: relative;
+}
+
+#icon img{
+	position: absolute;
+	width: 270px;
+	height: 129px;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -135px;
+}
+
+#form{
+	font-size: 0;
+}
+
+#head_wrapper .kw_wrap{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#head_wrapper .kw_wrap input{
+	width: 521px;
+	height: 20px;
+	border:1px solid #b8b8b8;
+	padding:9px 7px;
+	border-bottom: 1px solid #ccc;
+	font: 16px arial;
+}
+
+#head_wrapper .kw_wrap input:focus {
+	outline:none;
+    border: 1px solid #38f;
+}
+
+#head_wrapper .btn_wr{
+	display: inline-block;
+	border: 1px solid #38f;
+	border-bottom: 1px solid #2e7ae5;
+	background-color: #38f;
+}
+
+#head_wrapper .btn_wr input{
+	cursor: pointer;
+	width: 102px;
+	height: 38px;
+	line-height: 38px;
+	background: none;
+	background-color: #38f;
+	box-shadow: none;
+	border: 0;
+	font-size: 16px;
+	color: white;
+	font-weight: normal;
+}
